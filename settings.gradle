@@ -1,0 +1,4 @@
+rootProject.name = 'spring_boot_multi_module_project'
+include 'core'
+include 'api'
+

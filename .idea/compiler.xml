@@ -2,15 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
         </processorPath>
-        <module name="spring_boot_multi_module_project.api.main" />
-        <module name="spring_boot_multi_module_project.core.main" />
-        <module name="spring_boot_multi_module_project.api.test" />
-        <module name="spring_boot_multi_module_project.core.test" />
+        <module name="kr.multi.ex.spring_boot_multi_module_project.BtoC.main" />
+        <module name="kr.multi.ex.spring_boot_multi_module_project.Boss.main" />
+        <module name="spring_boot_multi_module_project.BtoB.test" />
+        <module name="kr.multi.ex.spring_boot_multi_module_project.BtoC-payment.main" />
+        <module name="spring_boot_multi_module_project.Common.main" />
+        <module name="spring_boot_multi_module_project.BtoC.test" />
+        <module name="spring_boot_multi_module_project.BtoC-payment.test" />
+        <module name="spring_boot_multi_module_project.BtoC-review.test" />
+        <module name="spring_boot_multi_module_project.Common.test" />
+        <module name="kr.multi.ex.spring_boot_multi_module_project.BtoC-review.main" />
+        <module name="kr.multi.ex.spring_boot_multi_module_project.BtoB.main" />
+        <module name="spring_boot_multi_module_project.Boss.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />

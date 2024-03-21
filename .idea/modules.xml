@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/spring_boot_multi_module_project.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/spring_boot_multi_module_project.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Boss/kr.multi.ex.spring_boot_multi_module_project.Boss.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Boss/kr.multi.ex.spring_boot_multi_module_project.Boss.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BtoB/kr.multi.ex.spring_boot_multi_module_project.BtoB.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BtoB/kr.multi.ex.spring_boot_multi_module_project.BtoB.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BtoC-payment/kr.multi.ex.spring_boot_multi_module_project.BtoC-payment.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BtoC-payment/kr.multi.ex.spring_boot_multi_module_project.BtoC-payment.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BtoC-review/kr.multi.ex.spring_boot_multi_module_project.BtoC-review.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BtoC-review/kr.multi.ex.spring_boot_multi_module_project.BtoC-review.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BtoC/kr.multi.ex.spring_boot_multi_module_project.BtoC.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BtoC/kr.multi.ex.spring_boot_multi_module_project.BtoC.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Boss/spring_boot_multi_module_project.Boss.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Boss/spring_boot_multi_module_project.Boss.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BtoB/spring_boot_multi_module_project.BtoB.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BtoB/spring_boot_multi_module_project.BtoB.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BtoC-payment/spring_boot_multi_module_project.BtoC-payment.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BtoC-payment/spring_boot_multi_module_project.BtoC-payment.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BtoC-review/spring_boot_multi_module_project.BtoC-review.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BtoC-review/spring_boot_multi_module_project.BtoC-review.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BtoC/spring_boot_multi_module_project.BtoC.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BtoC/spring_boot_multi_module_project.BtoC.main.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,8 @@
 rootProject.name = 'spring_boot_multi_module_project'
-include 'core'
-include 'api'
+include 'Boss'
+include 'BtoB'
+include 'BtoC'
+include 'Common'
+include 'BtoC-review'
+include 'BtoC-payment'
 

@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '2.4.3'
+        springBootVersion = '3.1.5'
     }
     repositories {
         mavenCentral()
@@ -35,11 +35,48 @@ subprojects {
         testImplementation('org.springframework.boot:spring-boot-starter-test') {
             exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
         }
+        // autoReload
+        developmentOnly("org.springframework.boot:spring-boot-devtools")
+
     }
 }
 
-project(':api') {
+configurations {
+    developmentOnly
+    runtimeClasspath {
+        extendsFrom developmentOnly
+    }
+}
+
+project(':Boss') {
     dependencies {
-        implementation project(':core')
+        implementation project(':Common')
+    }
+}
+
+
+project(':BtoB') {
+    dependencies {
+        implementation project(':Common')
+    }
+}
+
+
+project(':BtoC') {
+    dependencies {
+        implementation project(':Common')
+    }
+}
+
+project(':BtoC-review') {
+    dependencies {
+        implementation project(':Common')
+    }
+}
+
+
+project(':BtoC-payment') {
+    dependencies {
+        implementation project(':Common')
     }
 }

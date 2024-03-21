@@ -9,8 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/api" />
-            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/Boss" />
+            <option value="$PROJECT_DIR$/BtoB" />
+            <option value="$PROJECT_DIR$/BtoC" />
+            <option value="$PROJECT_DIR$/BtoC-payment" />
+            <option value="$PROJECT_DIR$/BtoC-review" />
+            <option value="$PROJECT_DIR$/Common" />
           </set>
         </option>
       </GradleProjectSettings>
